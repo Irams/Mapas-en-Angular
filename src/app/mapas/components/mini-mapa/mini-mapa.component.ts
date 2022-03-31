@@ -28,6 +28,7 @@ export class MiniMapaComponent implements AfterViewInit {
       style: 'mapbox://styles/mapbox/streets-v11', // style URL
       center: this.lngLat, // starting position [lng, lat]
       zoom: 15, // starting zoom
+      interactive: false
 
     });  
 
